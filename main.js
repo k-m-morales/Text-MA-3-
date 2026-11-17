@@ -25,7 +25,7 @@ const lectures = [
   {
     number: 3,
     title: "TYPOGRAPHY — PART ONE",
-    description: "Some histories and some language.",
+    description: "Some histories and some language. MA 01",
     date: "2/1"
   },
   {
@@ -43,7 +43,7 @@ const lectures = [
   {
     number: 6,
     title: "DESIGN PRINCIPLES — PART TWO",
-    description: "Dimensions Print - Part One - GRIDS etc..",
+    description: "Dimensions Print - Part One - GRIDS etc. MA 02",
     date: "2/22"
   },
   {
@@ -79,7 +79,7 @@ const lectures = [
   {
     number: 12,
     title: "DEPTH",
-    description: "",
+    description: "MA 03",
     date: "4/12"
   },
   {

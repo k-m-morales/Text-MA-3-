@@ -14,79 +14,79 @@ const lectures = [
     number: 1,
     title: "TEXT",
     description: " An introduction to how I see it and who I am. And what I’m currently doing.",
-    date: "8/24"
+    date: "1/11"
   },
   {
     number: 2,
     title: "THE LABEL",
     description: "Trust and the way words might participate in meaning",
-    date: "8/31"
+    date: "1/25"
   },
   {
     number: 3,
     title: "TYPOGRAPHY — PART ONE",
     description: "Some histories and some language.",
-    date: "9/14"
+    date: "2/1"
   },
   {
     number: 4,
     title: "TYPOGRAPHY — PART TWO",
     description: "The deeper understanding and some vocabulary.",
-    date: "9/21"
+    date: "2/8"
   },
   {
     number: 5,
     title: "DESIGN PRINCIPLES",
     description: "Movements in Design and Art history.",
-    date: "9/28"
+    date: "2/15"
   },
   {
     number: 6,
     title: "DESIGN PRINCIPLES — PART TWO",
     description: "Dimensions Print - Part One - GRIDS etc..",
-    date: "10/5"
+    date: "2/22"
   },
   {
     number: 7,
     title: "SEMIOTICS",
     description: "Representations.",
-    date: "10/12"
+    date: "3/1"
   },
   {
     number: 8,
     title: "SEMIOTICS",
     description: "Signs and Signifiers..",
-    date: "10/19"
+    date: "3/8"
   },
   {
     number: 9,
     title: "BRANDS",
     description: "",
-    date: "10/26"
+    date: "3/22"
   },
   {
     number: 10,
     title: "PROFESSIONAL WORK",
     description: "",
-    date: "11/2"
+    date: "3/29"
   },
   {
     number: 11,
     title: "CRITIQUE",
     description: "",
-    date: "11/9"
+    date: "4/5"
   },
   {
     number: 12,
     title: "DEPTH",
     description: "",
-    date: "11/16"
+    date: "4/12"
   },
   {
     number: 13,
     title: "RESOURCES",
     description: "",
-    date: "11/30"
+    date: "4/19"
   },
   {
     number: 14,

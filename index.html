@@ -1,85 +1,474 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TEXT 2300 | Course Syllabus</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>TEXT 2300 | Typography</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>TEXT 2300</h1>
-    <p>Typography for Print & Digital Media</p>
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <h2 class="logo">TEXT 2300</h2>
 
-    <nav>
+    <div class="nav-links">
       <a href="#home">Home</a>
+      <a href="#about">About</a>
       <a href="#schedule">Schedule</a>
       <a href="#assignments">Assignments</a>
       <a href="#grading">Grading</a>
       <a href="#policies">Policies</a>
-    </nav>
-  </header>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-  <main>
-    <section id="home">
-      <h2>Welcome to TEXT 2300</h2>
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+
+    <p class="small-title">
+      ATLAS 2300 / COURSE SYLLABUS
+    </p>
+
+    <h1>
+      TEXT<span class="dot">.</span>
+    </h1>
+
+    <h2>Typography is everywhere.</h2>
+
+    <p>
+      Explore the art of typography through
+      history, design, communication, and
+      creative experimentation.
+    </p>
+
+    <a href="#about" class="hero-button">
+      Explore the Course ↓
+    </a>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+
+    <p class="section-number">01 / INTRODUCTION</p>
+
+    <h2>What is this class about?</h2>
+
+    <p>
+      TEXT 2300 explores typography for both
+      print and digital media through historical
+      context and practical applications.
+    </p>
+
+    <p>
+      The course is designed for creative
+      technologists and aspiring professional
+      designers.
+    </p>
+
+    <div class="highlight-box">
+      <h3>WORDS HAVE POWER.</h3>
       <p>
-        Explore typography through history,
-        design principles, and creative practice.
+        Typography influences how we read,
+        understand, and communicate information.
       </p>
+    </div>
 
-      <h3>Your Instructor</h3>
-      <p>Rick Griffith</p>
-      <p>Rick.Griffith@colorado.edu</p>
-    </section>
+  </section>
 
-    <section id="schedule">
-      <h2>Course Schedule</h2>
-      <div class="card">
-        <h3>Lecture 1: TEXT</h3>
-        <p>Introduction to the course</p>
-        <p>Date: To be updated</p>
+
+  <!-- SCHEDULE -->
+  <section id="schedule" class="section yellow-section">
+
+    <p class="section-number">02 / COURSE SCHEDULE</p>
+
+    <h2>What are we learning?</h2>
+
+    <p>
+      Explore 13 lectures covering typography,
+      design principles, semiotics, and
+      professional creative work.
+    </p>
+
+    <p class="date-warning">
+      Dates shown below are from the original
+      syllabus and must be updated using the
+      next-semester academic calendar.
+    </p>
+
+    <div id="schedule-container"></div>
+
+  </section>
+
+
+  <!-- ASSIGNMENTS -->
+  <section id="assignments" class="section">
+
+    <p class="section-number">03 / MAJOR ASSIGNMENTS</p>
+
+    <h2>Let's make something.</h2>
+
+    <p>
+      Complete three major assignments throughout
+      the semester. Click each assignment
+      to see its requirements.
+    </p>
+
+
+    <div class="assignment-card">
+
+      <button class="assignment-button"
+              onclick="toggleAssignment('ma1')">
+        <span>MA 01 — Hand Drawn Letters</span>
+        <span>+</span>
+      </button>
+
+      <div id="ma1" class="assignment-content">
+
+        <h3>Hand Drawn Letters</h3>
+
+        <p><strong>Original due date:</strong> September 14</p>
+
+        <p>
+          Explore typography by accurately
+          drawing letterforms in three
+          different typefaces.
+        </p>
+
+        <h4>Requirements</h4>
+
+        <ul>
+          <li>Choose three typefaces.</li>
+          <li>Draw all required uppercase letters:
+              B, Q, K, Y.</li>
+          <li>Draw lowercase a, g, p, y,
+              and one additional vowel.</li>
+          <li>Draw one numeral of your choice.</li>
+          <li>Use all required sizes:
+              36, 72, 222, 450 points
+              and 25 picas.</li>
+          <li>Write a two-sentence biography
+              of each selected typeface designer.</li>
+          <li>Use one color only, excluding
+              the paper color.</li>
+        </ul>
+
+        <h4>Typeface Options</h4>
+
+        <p>
+          Bodoni Extra Bold Italic,
+          Trade Gothic Condensed 20 Bold,
+          Baskerville Italic,
+          Garamond Roman,
+          Interstate Gothic,
+          Futura Extra Bold.
+        </p>
+
+        <p>
+          Work during recitation or wherever
+          you are comfortable. Learning assistants
+          can help with research, tools, and
+          expectations.
+        </p>
+
+        <p>
+          The assignment involves 150 drawings,
+          which may be presented as a book,
+          poster, or another format.
+        </p>
+
+        <p>
+          <strong>Grading guidance:</strong>
+          Completing the work earns a B-level
+          result; A-level work makes it interesting.
+        </p>
+
       </div>
-    </section>
+    </div>
 
-    <section id="assignments">
-      <h2>Major Assignments</h2>
 
-      <div class="card">
-        <h3>MA 1: Hand Drawn Letters</h3>
-        <p>Explore typefaces through hand drawing.</p>
+    <div class="assignment-card">
+
+      <button class="assignment-button"
+              onclick="toggleAssignment('ma2')">
+        <span>MA 02 — Numbers & Statistics</span>
+        <span>+</span>
+      </button>
+
+      <div id="ma2" class="assignment-content">
+
+        <h3>Numbers & Statistics</h3>
+
+        <p><strong>Original due date:</strong> October 5</p>
+
+        <p>
+          Research statistics and use them
+          to tell compelling visual stories.
+        </p>
+
+        <h4>Research Sources</h4>
+
+        <ul>
+          <li>Financial Times — financial technology</li>
+          <li>New York Times — opinion/editorial</li>
+          <li>ESPN — sports</li>
+        </ul>
+
+        <p>
+          Collect one statistic from each source.
+          Provide citations, including a photo
+          citation for the ESPN source.
+        </p>
+
+        <h4>What to Create</h4>
+
+        <ul>
+          <li>Three separate slide decks.</li>
+          <li>Four slides in each deck.</li>
+          <li>Recreate an appropriate branded
+              template for each author.</li>
+          <li>Use three different perspectives:
+              pro, con, and neutral.</li>
+          <li>Build a factual story centered
+              around numbers.</li>
+          <li>Support inferences with evidence.</li>
+          <li>Upload completed work to Canvas.</li>
+        </ul>
+
+        <p>
+          <strong>AI warning:</strong>
+          Errors introduced by AI in the
+          finished work result in a full
+          letter-grade reduction.
+        </p>
+
+        <p>
+          <strong>Original example:</strong>
+          A four-slide ESPN-based deck about
+          athleisurewear trends could present
+          an investment opportunity in a
+          breathable-textile startup in Jaipur,
+          India, supported by factual research.
+        </p>
+
+      </div>
+    </div>
+
+
+    <div class="assignment-card">
+
+      <button class="assignment-button"
+              onclick="toggleAssignment('ma3')">
+        <span>MA 03 — Redesign This Syllabus</span>
+        <span>+</span>
+      </button>
+
+      <div id="ma3" class="assignment-content">
+
+        <h3>Redesign This Syllabus</h3>
+
+        <p><strong>Original due date:</strong> November 16</p>
+
+        <p>
+          Redesign the syllabus for future
+          students with clarity, empathy,
+          and creativity.
+        </p>
+
+        <h4>Requirements</h4>
+
+        <ul>
+          <li>Create an editable website or PDF.</li>
+          <li>Keep all original syllabus content,
+              assignments, and schedule information.</li>
+          <li>Use the university's academic
+              calendar for the next semester.</li>
+          <li>Make expectations and grading clear.</li>
+          <li>Clarify communication between
+              students, instructor, and LAs.</li>
+          <li>Use as many pages as needed.</li>
+          <li>Experimental designs are allowed
+              if all requirements are met.</li>
+          <li>If making a PDF, print the PDF,
+              not a printed webpage.</li>
+        </ul>
+
+        <p>
+          One or two students may receive
+          a live class critique on the
+          last full class day.
+        </p>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- GRADING -->
+  <section id="grading" class="section purple-section">
+
+    <p class="section-number">04 / GRADING</p>
+
+    <h2>How is your grade calculated?</h2>
+
+    <div class="grade-card">
+      <h3>Major Assignments</h3>
+      <div class="grade-bar">
+        <div class="grade-fill" style="width:30%"></div>
+      </div>
+      <p>30% of final grade</p>
+      <p>Three assignments. Late penalty: 10%.</p>
+    </div>
+
+    <div class="grade-card">
+      <h3>Minor Assignments</h3>
+      <div class="grade-bar">
+        <div class="grade-fill" style="width:50%"></div>
+      </div>
+      <p>50% of final grade</p>
+      <p>10 accepted out of 15 available.</p>
+      <p>No late assignments accepted.</p>
+    </div>
+
+    <div class="grade-card">
+      <h3>Attendance, Participation & Extra Credit</h3>
+      <div class="grade-bar">
+        <div class="grade-fill" style="width:20%"></div>
+      </div>
+      <p>20% of final grade</p>
+      <p>
+        Two extra-credit assignments can
+        substitute for one minor assignment
+        or one absence.
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- POLICIES -->
+  <section id="policies" class="section">
+
+    <p class="section-number">05 / COURSE POLICIES</p>
+
+    <h2>What should you know?</h2>
+
+    <div class="policy-grid">
+
+      <div class="policy-card">
+        <h3>Attendance</h3>
+        <p>
+          Arrive on time and attend consistently.
+          More than two absences makes you
+          ineligible for an A. More than three
+          makes you ineligible for a C.
+        </p>
       </div>
 
-      <div class="card">
-        <h3>MA 2: Numbers and Statistics</h3>
-        <p>Tell visual stories using research and data.</p>
+      <div class="policy-card">
+        <h3>Recitations</h3>
+        <p>
+          Learning assistants provide course
+          summaries, handouts, and activities.
+          Complete and submit recitation work
+          before leaving the room.
+        </p>
       </div>
 
-      <div class="card">
-        <h3>MA 3: Redesign This Syllabus</h3>
-        <p>Create a clearer syllabus for future students.</p>
+      <div class="policy-card">
+        <h3>Reading & Discussion</h3>
+        <p>
+          Students may read one or two
+          paragraphs aloud and write a
+          two-sentence handwritten synopsis.
+        </p>
       </div>
-    </section>
 
-    <section id="grading">
-      <h2>Grading Breakdown</h2>
-      <p>Major Assignments: 30%</p>
-      <p>Minor Assignments: 50%</p>
-      <p>Attendance & Participation: 20%</p>
-    </section>
+      <div class="policy-card">
+        <h3>Quizzes & Deadlines</h3>
+        <p>
+          Quizzes may refer to any course
+          source. Submit quizzes and
+          recitation assignments before
+          leaving. No late recitation
+          assignments or absence-based
+          extensions are accepted.
+        </p>
+      </div>
 
-    <section id="policies">
-      <h2>Course Policies</h2>
-      <p>Attendance and recitation expectations.</p>
-    </section>
-  </main>
+    </div>
 
+    <p>
+      Recitation activities also serve as
+      attendance records. Practice activities
+      may be continued as long as desired.
+    </p>
+
+    <p>
+      There are 15 possible recitation
+      assignments, of which 10 are accepted.
+    </p>
+
+    <p><strong>Final exam:</strong> None.</p>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+
+    <p class="section-number">06 / CONTACT</p>
+
+    <h2>Questions? Let's talk.</h2>
+
+    <h3>Instructor</h3>
+
+    <p>Rick Griffith</p>
+
+    <a href="mailto:Rick.Griffith@colorado.edu">
+      Rick.Griffith@colorado.edu
+    </a>
+
+    <h3>Learning Assistants</h3>
+
+    <p>Kira Warren</p>
+    <p>Zoe Cooper</p>
+    <p>Autumn Davis</p>
+    <p>Diya Mehta</p>
+
+    <p>
+      Learning assistants provide guidance
+      during recitations and help clarify
+      assignments and expectations.
+    </p>
+
+    <p>
+      Contact methods and availability
+      beyond the instructor's email should
+      be confirmed for the next semester.
+    </p>
+
+  </section>
+
+
+  <!-- FOOTER -->
   <footer>
-    <p>TEXT 2300 | Course Syllabus</p>
+    <h2>TEXT 2300</h2>
+    <p>Typography is more than letters.</p>
+    <p>Redesigned for future students.</p>
   </footer>
 
   <script src="main.js"></script>
+
 </body>
 </html>

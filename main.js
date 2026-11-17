@@ -1,5 +1,4 @@
 
-// INTERACTIVE ASSIGNMENT CARDS
 
 function toggleAssignment(id) {
   const assignment = document.getElementById(id);
@@ -99,7 +98,7 @@ const lectures = [
 ];
 
 
-// DISPLAY LECTURES ON WEBSITE
+// display lecs 
 
 const scheduleContainer =
   document.getElementById("schedule-container");

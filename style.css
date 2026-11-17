@@ -1,16 +1,16 @@
 
-/* COLORS */
+/* colors im using */
 
 :root {
-  --orange: #ff725e;
-  --yellow: #ffda63;
+  --cyan: #62e9e5;
+  --pink: #f86599;
   --purple: #c6b2fa;
-  --mint: #a5e0c5;
-  --cream: #fffaf2;
+  --lavender: #9490e7;
+  --blue: #757eec;
   --dark: #26194b;
 }
 
-/* BASIC STYLING */
+/* styling */
 
 * {
   box-sizing: border-box;
@@ -22,13 +22,13 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: var(--cream);
+  font-family: Helvetica, sans-serif;
+  background: var(--blue);
   color: var(--dark);
   line-height: 1.6;
 }
 
-/* NAVIGATION */
+/* navi  */
 
 .navbar {
   background: var(--dark);
@@ -63,13 +63,13 @@ body {
 }
 
 .nav-links a:hover {
-  color: var(--yellow);
+  color: var(--pink);
 }
 
-/* HOME SECTION */
+/* home*/
 
 .hero {
-  background: var(--orange);
+  background: var(--cyan);
   min-height: 85vh;
   padding: 100px 8%;
   display: flex;
@@ -90,7 +90,7 @@ body {
 }
 
 .dot {
-  color: var(--yellow);
+  color: var(--pink);
 }
 
 .hero h2 {
@@ -142,10 +142,10 @@ body {
   max-width: 800px;
 }
 
-/* ABOUT */
+/* about???/ idk if im keeping */
 
 .highlight-box {
-  background: var(--mint);
+  background: var(--lavender);
   padding: 40px;
   margin-top: 40px;
   border-radius: 20px;
@@ -155,16 +155,16 @@ body {
   font-size: 35px;
 }
 
-/* SCHEDULE */
+/* schedule */
 
-.yellow-section {
-  background: var(--yellow);
+.cyan-section {
+  background: var(--cyan);
 }
 
 .date-warning {
   background: white;
   padding: 20px;
-  border-left: 6px solid var(--orange);
+  border-left: 6px solid var(--pink);
   border-radius: 8px;
 }
 
@@ -196,7 +196,10 @@ body {
   text-align: center;
 }
 
-/* ASSIGNMENTS */
+/* assignments*/
+.assignment-section {
+  background: var(--pink);
+}
 
 .assignment-card {
   border: 3px solid var(--dark);
@@ -206,13 +209,13 @@ body {
 }
 
 .assignment-button {
-  background: var(--purple);
+  background: var(--lavender);
   border: none;
   padding: 25px;
   width: 100%;
   font-size: 22px;
   font-weight: bold;
-  color: var(--dark);
+  color: var(--cyan);
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -220,7 +223,7 @@ body {
 }
 
 .assignment-button:hover {
-  background: var(--yellow);
+  background: var(--dark);
 }
 
 .assignment-content {
@@ -237,7 +240,7 @@ body {
   font-size: 30px;
 }
 
-/* GRADING */
+/* grading */
 
 .purple-section {
   background: var(--purple);
@@ -258,11 +261,11 @@ body {
 }
 
 .grade-fill {
-  background: var(--orange);
+  background: var(--pink);
   height: 100%;
 }
 
-/* POLICIES */
+/* policies*/
 
 .policy-grid {
   display: grid;
@@ -271,7 +274,7 @@ body {
 }
 
 .policy-card {
-  background: var(--mint);
+  background: var(--pink);
   padding: 25px;
   border-radius: 15px;
 }
@@ -280,10 +283,10 @@ body {
   font-size: 25px;
 }
 
-/* CONTACT */
+/* contact*/
 
 .contact-section {
-  background: var(--orange);
+  background: var(--cyan);
 }
 
 .contact-section a {
@@ -291,7 +294,7 @@ body {
   font-weight: bold;
 }
 
-/* FOOTER */
+/* footer */
 
 footer {
   background: var(--dark);

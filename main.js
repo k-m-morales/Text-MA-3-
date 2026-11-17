@@ -8,90 +8,94 @@ function toggleAssignment(id) {
 }
 
 
-// COURSE SCHEDULE
-
-// These are original syllabus dates.
-// Verify and replace them for the next semester.
+// course schedule with lectues 
 
 const lectures = [
   {
     number: 1,
     title: "TEXT",
-    description: "Introduction to the instructor, course, and text.",
+    description: " An introduction to how I see it and who I am. And what I’m currently doing.",
     date: "8/24"
   },
   {
     number: 2,
     title: "THE LABEL",
-    description: "Trust and the role of words in meaning.",
+    description: "Trust and the way words might participate in meaning",
     date: "8/31"
   },
   {
     number: 3,
     title: "TYPOGRAPHY — PART ONE",
-    description: "Typography history and terminology.",
+    description: "Some histories and some language.",
     date: "9/14"
   },
   {
     number: 4,
     title: "TYPOGRAPHY — PART TWO",
-    description: "Deeper typography concepts and vocabulary.",
+    description: "The deeper understanding and some vocabulary.",
     date: "9/21"
   },
   {
     number: 5,
     title: "DESIGN PRINCIPLES",
-    description: "Movements in design and art history.",
+    description: "Movements in Design and Art history.",
     date: "9/28"
   },
   {
     number: 6,
     title: "DESIGN PRINCIPLES — PART TWO",
-    description: "Two-dimensional print design and grids.",
+    description: "Dimensions Print - Part One - GRIDS etc..",
     date: "10/5"
   },
   {
     number: 7,
-    title: "SEMIOTICS — REPRESENTATIONS",
-    description: "Representations and visual meaning.",
+    title: "SEMIOTICS",
+    description: "Representations.",
     date: "10/12"
   },
   {
     number: 8,
-    title: "SEMIOTICS — SIGNS AND SIGNIFIERS",
-    description: "How signs communicate meaning.",
+    title: "SEMIOTICS",
+    description: "Signs and Signifiers..",
     date: "10/19"
   },
   {
     number: 9,
     title: "BRANDS",
-    description: "Brand communication and identity.",
+    description: "",
     date: "10/26"
   },
   {
     number: 10,
     title: "PROFESSIONAL WORK",
-    description: "Professional creative practice.",
+    description: "",
     date: "11/2"
   },
   {
     number: 11,
     title: "CRITIQUE",
-    description: "Critique and evaluation.",
+    description: "",
     date: "11/9"
   },
   {
     number: 12,
     title: "DEPTH",
-    description: "Exploring design concepts in greater depth.",
+    description: "",
     date: "11/16"
   },
   {
     number: 13,
     title: "RESOURCES",
-    description: "Resources session run by learning assistants.",
+    description: "",
     date: "11/30"
+  },
+  {
+    number: 14,
+    title: " NO FINAL",
+    description: "",
+    date: "HAGL"
   }
+
 ];
 
 
@@ -114,8 +118,6 @@ lectures.forEach(function(lecture) {
 
     <div class="lecture-date">
       ${lecture.date}
-      <br>
-      <small>Verify date</small>
     </div>
   `;
 
